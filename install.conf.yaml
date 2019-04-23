@@ -8,5 +8,7 @@
     ~/.gitconfig: git
     ~/.dotfiles: ''
     ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+
 - shell:
   -  [git submodule update --init --recursive, Installing submodules]
