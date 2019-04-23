@@ -9,6 +9,6 @@
     ~/.dotfiles: ''
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
-
+    ~/.screenrc: screenrc
 - shell:
   -  [git submodule update --init --recursive, Installing submodules]
