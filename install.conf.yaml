@@ -1,16 +1,23 @@
 - defaults:
     link:
       relink: true
-    
+      force: true
+
 - clean: ['~']
 
 - link:
-    ~/.gitconfig: git
     ~/.dotfiles: ''
-    ~/.bashrc: bashrc
-    ~/.bash_logout: bash_logout
+    ~/.gitconfig: 
+      path: git
+    ~/.bashrc: 
+      path: bashrc
+    ~/.bash_logout: 
+      path: bash_logout
     ~/.screenrc: screenrc
-    ~/.bash_aliases: bash_aliases
-    ~/.tmux.conf: tmux.conf
+    ~/.bash_aliases: 
+      path: bash_aliases
+    ~/.tmux.conf:
+      path: tmux.conf
+
 - shell:
   -  [git submodule update --init --recursive, Installing submodules]
