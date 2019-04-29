@@ -18,6 +18,8 @@
       path: bash_aliases
     ~/.tmux.conf:
       path: tmux.conf
+    ~/.config/nano/nanorc:
+      path: nanorc
 
 - shell:
   -  [git submodule update --init --recursive, Installing submodules]
