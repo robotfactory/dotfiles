@@ -46,7 +46,7 @@
 
 ## Constantly display the cursor position in the statusbar.  Note that
 ## this overrides "quickblank".
-# set constantshow
+set constantshow
 ## (The old form, 'const', is deprecated.)
 
 ## Use cut-to-end-of-line by default.
@@ -83,7 +83,7 @@ set locking
 ## mouse clicks can be used to place the cursor, set the mark (with a
 ## double click), and execute shortcuts.  The mouse will work in the X
 ## Window System, and on the console when gpm is running.
-# set mouse
+set mouse
 
 ## Switch on multiple file buffers (inserting a file will put it into
 ## a separate buffer).
@@ -195,15 +195,6 @@ set suspend
 # set wordchars "<_>."
 
 
-## Paint the interface elements of nano.
-## These are examples; by default there are no colors.
-# set titlecolor brightwhite,blue
-# set numbercolor cyan
-# set statuscolor brightwhite,green
-# set keycolor green
-# set functioncolor yellow
-
-
 ## Setup of syntax coloring.
 ##
 ## Format:
@@ -262,3 +253,8 @@ include "/usr/share/nano/*.nanorc"
 
 ## Set this if your Backspace key sends Del most of the time.
 # bind Del backspace all
+
+set titlecolor brightwhite,blue
+set statuscolor brightwhite,blue
+set keycolor yellow
+set functioncolor white
