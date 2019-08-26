@@ -18,7 +18,7 @@
       path: bash_aliases
     ~/.tmux.conf:
       path: tmux.conf
-    ~/.config/nano/nanorc:
+    ~/.nanorc:
       path: nanorc
 
 - shell:
