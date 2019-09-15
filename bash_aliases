@@ -1,8 +1,11 @@
+# Because 'sudo !!' is for suckers
 alias fuck='sudo "$BASH" -c "$(history -p !!)"'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias cdh='cd ~'
 alias update='sudo apt update && sudo apt upgrade -y'
+
+# Git Aliases
 alias g='git'
 alias ga='git add'
 alias gc='git commit'
