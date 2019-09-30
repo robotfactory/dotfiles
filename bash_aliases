@@ -13,4 +13,4 @@ alias gp='git push'
 alias gu='git pull'
 
 # IP Stuff
-alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
