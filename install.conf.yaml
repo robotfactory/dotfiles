@@ -20,6 +20,8 @@
       path: tmux.conf
     ~/.nanorc:
       path: nanorc
+    ~/.bash_profile:
+      path: bash_profile
 
 - shell:
   -  [git submodule update --init --recursive, Installing submodules]
